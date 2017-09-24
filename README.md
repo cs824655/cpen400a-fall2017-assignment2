@@ -9,7 +9,7 @@ As part of this assignment you will be implementing the "add to cart" functional
 
 1. **Add to cart / Remove from cart buttons:** (3 points)
 When you hover over any of the products within the web page,
-    * A) you need to show the cart symbol on top of the product image. The user should still be able to see the product in the background. Please refer to the [layout.png](https://github.com/erkartik91/assignment2/blob/master/layout.png) file reference.
+    * A) you need to show the cart symbol on top of the product image. The user should still be able to see the product in the background. Please refer to the [layout.png](https://github.com/jungkumseok/cpen400a-fall2017-assignment2/blob/master/layout.png) file reference.
     * B) You will also need to show **Add** button
     * C) and **Remove** button.
 
