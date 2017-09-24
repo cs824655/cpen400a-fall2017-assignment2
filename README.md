@@ -70,9 +70,10 @@ There are multiple ways to go about implementing the tasks specified in this ass
 **To test your code, insert the following script tags within the head tag of your page**
 ```
 <script src="http://ece.ubc.ca/~kbajaj/cpen400a/jquery.js" type="text/javascript"></script>
-<script src="http://ece.ubc.ca/~gpli/CPEN400A/hw2/test.js" type="text/javascript"></script>
+<script src="http://ece.ubc.ca/~kumseok/src/cpen400a/test2.js" type="text/javascript"></script>
 ```
-Once you add the above scripts, the testing automatically starts when page is loaded. Watch out for the alert messages which tells you any missing components/functionalities. You are responsible for ensuring that all the functionalities above are implemented correctly - the tests are only there to help you. We reserve the right to test your code with other test cases than the above.
+You will see a Red button on the top-right corner of your web page. Clicking on that will let you test your code.
+Watch out for the alert messages which tells you any missing components/functionalities. You are responsible for ensuring that all the functionalities above are implemented correctly - the tests are only there to help you. We reserve the right to test your code with other test cases than the above.
 
 ## Submission instructions:
 
