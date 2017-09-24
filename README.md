@@ -16,7 +16,7 @@ When you hover over any of the products within the web page,
 2. **Cart Variables:** (4 points)
     * A) You will need to maintain your cart as a JavaScript global variable `cart`. It should be represented as an associative array (i.e., object). Product names represent the indexes, and values represent the number of products ordered by the customer.
     * B) You will also need to maintain product quantity as a global variable `products`. This variable should be initialized as soon as the web page is loaded. It is also an associative array of product names and quantity (again an object). Initialize all the product quantities to 5.
-    * C) When the user clicks on **Add** button, you will call `addToCart` JavaScript function, that will update the cart (Use the 'click' event for this purpose). If the product already exists in the cart, you will need to increment the quantity of the product by 1. If it does not exist you will add the product in the cart and initialize the quantity to be 1. Use the following function signature to define the function (**NOTE: Please follow the function signatures exactly as otherwise our automated tests will fail, and you will be penalized.**).
+    * C) When the user clicks on **Add** button, you will call `addToCart` JavaScript function, that will update the cart (Use the 'click' event for this purpose). If the product already exists in the cart, you will need to increment the quantity of the product by 1. If it does not exist you will add the product in the cart and initialize the quantity to be 1. *Use the following function signature to define the function* (**NOTE: Please follow the function signatures exactly as otherwise our automated tests will fail, and you will be penalized.**).
      ```
      function addToCart(productName) {
   
@@ -24,7 +24,7 @@ When you hover over any of the products within the web page,
      ```
    You will also need to update the quantity in `products` accordingly.
    The product names are given in assignment 1, in products folder, image of each product is named as "ProductName_Price.png". So you should use the same names here, for example, for "Box1_$10.png", you should name the product "Box1".
-    * D) When the user clicks on **Remove** button, you will call the `removeFromCart` Javascript function that will update the cart. If there is no such product in the cart, you should present the user with an alert message saying the product does not exist in the cart. If there are more than 1 of the same product, decrement the quantity by 1. If the quantity in the cart is 1, remove the product completely from the cart object. Use the following function signature to define the function.
+    * D) When the user clicks on **Remove** button, you will call the `removeFromCart` Javascript function that will update the cart. If there is no such product in the cart, you should present the user with an alert message saying the product does not exist in the cart. If there are more than 1 of the same product, decrement the quantity by 1. If the quantity in the cart is 1, remove the product completely from the cart object. *Use the following function signature to define the function.*
      ```
      function removeFromCart(productName) {
   
@@ -33,13 +33,14 @@ When you hover over any of the products within the web page,
    Make sure when you add or remove a product to the cart, the quantity in `products` is updated.
 
 3. **Show Cart:** (1 point)
-You need to add a button called **Show Cart** in your website. Clicking the button should display all the current product items/quantity in the cart inside an `alert` box. Each item should be separated by a newline character for readability. For example:
+You need to add a button labelled **Show Cart** in your website. Clicking the button should display all the current product items/quantity in the cart inside an `alert` box. Each item should be separated by a newline character for readability. For example:
 ```
 Box1 : 3
 Jeans : 1
 Keyboard : 2
 ```
-Use the following function signature to define the function.
+You can refer to [showCart.png](https://github.com/jungkumseok/cpen400a-fall2017-assignment2/blob/master/showCart.png) to get an idea.
+*Use the following function signature to define the function.*
 ```
 function showCart(){
 }
@@ -90,4 +91,4 @@ These deadlines will be strictly enforced; we won't be looking at any commits do
 
 ## Labs are mandatory on the week of assignment submission:
 
-* If you can not attend the lab to demo your assignment for any reason, you need to notice Instructors on Piazza ahead of at least 24 hours before the lab section starts. Otherwise, you will be recorded as no attendance and will have marks deducted.
+* If you cannot attend the lab to demo your assignment for any reason, you need to notice Instructors on Piazza ahead of at least 24 hours before the lab section starts. Otherwise, you will be recorded as no attendance and will have marks deducted.
